@@ -1,0 +1,38 @@
+{
+  "name": "dointerface",
+  "version": "1.0.0",
+  "description": "Interface for Digital Ocean droplet and volume management",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlejord27/DOInterface.git"
+  },
+  "keywords": [
+    "Digital",
+    "Ocean",
+    "DO",
+    "Digital",
+    "Ocean"
+  ],
+  "author": "Jordan Little",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littlejord27/DOInterface/issues"
+  },
+  "homepage": "https://github.com/littlejord27/DOInterface#readme",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.7.0",
+    "request": "^2.83.0",
+    "sequelize": "^3.21.0",
+    "sqlite3": "^3.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}

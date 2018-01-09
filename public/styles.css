@@ -1,0 +1,46 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+  padding: 8px;
+  padding-top: 48px;
+}
+h3 a {
+  color: white;
+  text-decoration: none;
+}
+.relative {
+  position: relative;
+}
+.block {
+  display: block;
+}
+.error {
+  background-color: #d50000;
+}
+
+
+/*             */
+/*   droplet   */
+/*             */
+
+.droplet {
+  border: 1px solid rgba(0,0,0,0.2);
+  padding:10px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 150px;
+}
+.droplet .droplet-cog{
+  padding-bottom: 15px;
+}
+.droplet .droplet-cog i{
+  float: right;
+}
+.droplet .droplet-title{
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
